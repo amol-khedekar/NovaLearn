@@ -37,8 +37,8 @@ Welcome to NovaLearn LMS - eLearning Management System. This system facilitates 
 
 # Technology Stack -
 * **Languages**: Java, Typescript
-* **Frameworks:** Spring Boot, Angular
+* **Backend Frameworks:** Spring Boot, Spring Security, Spring Data JPA
+* **Frontend Tools:** Angular, HTML, CSS
 * **Databases:** MySQL
 * **Build tools:** Maven
-* **Other tools:** Spring Security, Spring Data JPA, HTML, CSS
 * **Servers:** Tomcat Server
