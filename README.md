@@ -27,7 +27,7 @@ Welcome to NovaLearn LMS - eLearning Management System. This system facilitates 
 
 
 ### LEARNER
-- As a user, you can:
+- As a learner, you can:
   - Create a new account and login to the LMS
   - Browse the available course list and specific learning contents
   - Access user dashboard with metrics such as Total no of Learners, Courses, Most Liked Courses, and Total Chapters.
