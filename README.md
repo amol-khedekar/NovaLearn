@@ -5,14 +5,16 @@ Welcome to NovaLearn LMS - eLearning Management System. This system facilitates 
 
 ## Key Features
 
-### ADMIN
-- As an admin, you can:
-  - Add and manage professors
-  - Manage users and learners
-  - Add new courses and chapters
-  - View lists of professors, courses, and users
-  - Accept or reject professor registrations
-  - Access admin dashboard with metrics such as Total no of Professors, Users, Learners, Courses, Most Liked Courses, and Total Chapters.
+### LEARNER
+- As a learner, you can:
+  - Create a new account and login to the LMS
+  - Browse the available course list and specific learning contents
+  - Access user dashboard with metrics such as Total no of Learners, Courses, Most Liked Courses, and Total Chapters.
+  - Manage your wishlist and enroll in new courses
+  - Check your enrolled and favorite courses
+  - View and edit your profile details
+
+  
 
 ### PROFESSOR
 - As a professor, you can:
@@ -26,14 +28,15 @@ Welcome to NovaLearn LMS - eLearning Management System. This system facilitates 
  
 
 
-### LEARNER
-- As a learner, you can:
-  - Create a new account and login to the LMS
-  - Browse the available course list and specific learning contents
-  - Access user dashboard with metrics such as Total no of Learners, Courses, Most Liked Courses, and Total Chapters.
-  - Manage your wishlist and enroll in new courses
-  - Check your enrolled and favorite courses
-  - View and edit your profile details
+
+### ADMIN
+- As an admin, you can:
+  - Add and manage professors
+  - Manage users and learners
+  - Add new courses and chapters
+  - View lists of professors, courses, and users
+  - Accept or reject professor registrations
+  - Access admin dashboard with metrics such as Total no of Professors, Users, Learners, Courses, Most Liked Courses, and Total Chapters.
 
 # Technology Stack -
 * **Languages**: Java, Typescript
