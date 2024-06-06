@@ -35,12 +35,10 @@ Welcome to NovaLearn LMS - eLearning Management System. This system facilitates 
   - Check your enrolled and favorite courses
   - View and edit your profile details
 
-## Technology Stack
-- **Java**
-- **Spring Boot**
-- **Spring Security**
-- **Spring Data JPA**
-- **MySQL**
-- **Angular**
-- **HTML**
-- **CSS**
+# Technology Stack -
+* **Languages**: Java, Typescript
+* **Frameworks:** Spring Boot, Angular
+* **Databases:** MySQL
+* **Build tools:** Maven
+* **Other tools:** Spring Security, Spring Data JPA, HTML, CSS
+* **Servers:** Tomcat Server
