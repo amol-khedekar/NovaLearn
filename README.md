@@ -3,6 +3,31 @@ NovaLean - eLearning Management System using Spring Boot and Angular
 
 Welcome to NovaLearn LMS - eLearning Management System. This system facilitates course enrollment, wishlist management, and comprehensive application administration. It operates in three distinct modes: ADMIN, LEARNER, and PROFESSOR.
 
+## Screenshots (Preview)
+<details>
+
+<summary >
+Click here to see preview
+</summary>
+
+![alt text](<images/Screenshot (35).png>)
+![alt text](<images/Screenshot (36).png>)
+![alt text](<images/Screenshot (37).png>)
+![alt text](<images/Screenshot (38).png>)
+![alt text](<images/Screenshot (39).png>)
+![alt text](<images/Screenshot (40).png>)
+![alt text](<images/Screenshot (41).png>)
+![alt text](<images/Screenshot (46).png>)
+![alt text](<images/Screenshot (54).png>)
+![alt text](<images/Screenshot (55).png>)
+![alt text](<images/Screenshot (56).png>)
+
+
+</details>
+
+### [Click here to see more screenshots](#screenshots)
+
+
 ## Key Features
 
 ### LEARNER
@@ -38,10 +63,25 @@ Welcome to NovaLearn LMS - eLearning Management System. This system facilitates 
   - Accept or reject professor registrations
   - Access admin dashboard with metrics such as Total no of Professors, Users, Learners, Courses, Most Liked Courses, and Total Chapters.
 
-# Technology Stack -
+## Technology Stack -
 * **Languages**: Java, Typescript
 * **Backend Frameworks:** Spring Boot, Spring Security, Spring Data JPA
 * **Frontend Tools:** Angular, HTML, CSS
 * **Databases:** MySQL
 * **Build tools:** Maven
 * **Servers:** Tomcat Server
+
+
+## Screenshots
+
+![alt text](<images/Screenshot (35).png>)
+![alt text](<images/Screenshot (36).png>)
+![alt text](<images/Screenshot (37).png>)
+![alt text](<images/Screenshot (38).png>)
+![alt text](<images/Screenshot (39).png>)
+![alt text](<images/Screenshot (40).png>)
+![alt text](<images/Screenshot (41).png>)
+![alt text](<images/Screenshot (46).png>)
+![alt text](<images/Screenshot (54).png>)
+![alt text](<images/Screenshot (55).png>)
+![alt text](<images/Screenshot (56).png>)
