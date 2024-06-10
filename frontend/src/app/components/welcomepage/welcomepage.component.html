@@ -1,20 +1,30 @@
 <div class="content">
-    <div class="header" id="header">
-      <div class="nav">
-       <label></label>
-       <div class="switchs">
-        <button style="font-weight: bold;" class="log" id="log" [routerLink]="['']"><i class="fa fa-home"></i> Home</button>
-        <button style="font-weight: bold;" class="log" id="log" onclick="location.href='#services';"><i class="fa fa-cog"></i> Services</button>
-        <button style="font-weight: bold;" class="log" id="log" [routerLink]="['/login']"><i class="fa fa-sign-in"></i> LOGIN</button>
-        <button style="font-weight: bold;" class="create_acc" id="create_acc" [routerLink]="['/registration']"><i class="fa fa-user-plus"></i> CREATE ACCOUNT</button>
+  <div class="header" id="header">
+    <div class="nav">
+      <img [src]="'assets/img/logo.png'" height="36" >
+      <div class="switchs">
+        <button class="nav-btn" style="font-weight: bold;" [routerLink]="['']">Home
+        </button>
+        <button class="nav-btn" style="font-weight: bold;" onclick="location.href='#services';"> Services
+        </button>
+        <button class="nav-btn" style="font-weight: bold;" [routerLink]="['/login']">
+          Login
+        </button>
+        <button class="nav-btn nav-btn-filled" style="font-weight: bold;" [routerLink]="['/registration']">Register Now
+        </button>
       </div>
     </div>
     <div class="main">
-    	<div class="text">
-    		<h1 style="margin-left: -10%; font-family: Verdana;">NovaLearn</h1><br>
-
-    	</div><br>
-      <img class="floating" id="img3" [src]="'assets/img/lms-bg.png'">
+      <div class="text" style="text-align: left">
+        <h1 class="hero-title" style="; font-family: Verdana;"><span class="hero-title-text"> NovaLearn</span></h1><br>
+        <h4 style="font-weight: bolder; text-align:left;color: rgb(248, 247, 247);">Curated
+          eLearning Platform for students</h4><br><br>
+      </div>
+      <br>
+      <img class="floating" id="img3" [src]="'assets/img/lms.svg'" style="background-image: url('assets/img/lms-hero-img.png');
+    background-size: cover;
+    background-position: left;
+    padding: 80px;">
     </div>
   </div>
   <br>
@@ -22,52 +32,117 @@
 <br><br>
 
 <section id="about" class="about about-bg">
-  <div class="about-container">
-      <div class="subtext1" id="subtext1"><span class="counter">01</span> &nbsp;User Friendly Learning Portal<i id="subtext1" class="fa fa-caret-down"></i></div>
-        <div class="innertext1" id="innertext1">This Portal facilitates you for an <b style="color: darkmagenta; font-size: larger; font-weight: bolder;">user-friendly</b> experience with all the learning contents and resources to improve your skills. You can also <b style="color: darkgreen; font-size: large; font-weight: bolder;">download the course related materials</b> from our portal which can make your learning process much easier</div>
+  <div class="seven">
+    <h1 class="section-name">Why Choose Us</h1>
   </div>
-  <div class="about-container">
-        <div class="subtext1" id="subtext2"><span class="counter">02</span> &nbsp;Three Different Modes<i id="subtext2" class="fa fa-caret-down"></i></div>
-        <div class="innertext1" id="innertext2">This elearning Portal has three different modes of working as <b style="color:darkblue; font-size: larger; font-weight: bolder;">ADMIN, PROFESSOR & USER.</b> Each of them can access to their respective features and perform their task accordingly. (by default, the ADMIN will be <b style="color: darkgreen; font-size: larger; font-weight: bolder;">GowthamRaj K </b><b style="color: darkred;">(portal creator)</b></div>
-  </div>
-  <div class="about-container">
-        <div class="subtext1" id="subtext3"><span class="counter">03</span> &nbsp;Specific Learning Contents<i id="subtext3" class="fa fa-caret-down"></i></div>
-        <div class="innertext1" id="innertext3">Seperate Learning contents have been included for both <b style="color: darkgreen; font-size: larger; font-weight: bolder;">video based lectures</b> and <b style="color: darkgreen; font-size: larger; font-weight: bolder;">website based lectures.</b> The <b style="color: darkred; font-size: medium; font-weight: bolder;">ADMIN</b> or <b style="color: darkred; font-size: medium; font-weight: bolder;">PROFESSOR</b> can specify the course type while adding a new course</div>
-  </div>
+  <ul class="cards">
+    <li>
+      <a href="" class="card">
+        <img [src]="'assets/img/elearning.svg'" class="card__image" alt="" />
+        <div class="card__overlay">
+          <div class="card__header">
+            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
 
-  <img class="automation" [src]="'assets/img/portalimg.gif'" width="470" height="470">
+            <div class="card__header-text">
+              <h3 class="card__title">Simple and User Friendly</h3>
+
+            </div>
+          </div>
+          <p class="card__description">LMS facilitates you for an user-friendly experience with all the learning contents and resources to improve your skills. </p>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="" class="card">
+        <img [src]="'assets/img/threemodes.svg'" class="card__image" alt="" />
+        <div class="card__overlay">
+          <div class="card__header">
+            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+
+            <div class="card__header-text">
+              <h3 class="card__title">Three Different Modes</h3>
+
+            </div>
+          </div>
+          <p class="card__description">LMS allows three different users - ADMIN, PROFESSOR & LEARNER each with respective features.</p>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a href="" class="card">
+        <img [src]="'assets/img/videolectures.svg'" class="card__image" alt="" />
+        <div class="card__overlay">
+          <div class="card__header">
+            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+
+            <div class="card__header-text">
+              <h3 class="card__title">Curated Contents</h3>
+
+            </div>
+          </div>
+          <p class="card__description">Seperate Learning contents have been included for both video based lectures and website based lectures. </p>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="" class="card">
+        <img [src]="'assets/img/youtube.svg'" class="card__image" alt="" />
+        <div class="card__overlay">
+          <div class="card__header">
+            <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>
+
+            <div class="card__header-text">
+              <h3 class="card__title">Plug-In Play Lectures</h3>
+
+            </div>
+          </div>
+          <p class="card__description">LMS facilitates content to learn as an embedded video lecture in our custom video player.</p>
+        </div>
+      </a>
+    </li>
+  </ul>
+
+
+
 </section>
 
 <main id="main">
   <section id="services" class="services section-bg">
     <div class="container" data-aos="fade-up">
       <div class="section-title">
-        <h2 style="font-family: aladin; color: rgb(3, 34, 34);">Interactive LMS</h2>
+        <h2 style=" color: rgb(3, 34, 34);">Welcome to NovaLearn</h2>
+        <h4 style=" color: rgb(3, 34, 34);">Please choose your role</h4>
       </div>
       <div class="mid_body2">
         <div class="details">
-          <div class="detail_1" (click)="navigate()" style="background-color: rgb(19, 104, 97); margin-right: 5%;">
-            <h2 style="font-weight: bolder; font-size: 35px;font-family: monospace; margin-top: 5%; color: white;"> Admin </h2>
+          <div class="detail_1" (click)="navigate()" style="margin-right: 5%;">
+
             <div class="circle" style="border-radius: 50%; background-color: white; padding: 10%;">
-                <img [src]="'assets/img/admin.png'" width="130" height="130">
+              <img [src]="'assets/img/users/admin.png'" width="130" height="130">
             </div>
+            <h2 style="font-weight: bolder; font-size: 24px;">
+              Admin </h2>
           </div>
-          <div class="detail_2" (click)="navigate()" style="background-color: rgb(19, 104, 97); margin-right: 5%;">
-            <h2 style="font-weight: bolder; font-size: 35px;font-family: monospace; margin-top: 5%; color: white;"> Professor </h2>
+          <div class="detail_2" (click)="navigate()" style="margin-right: 5%;">
+
             <div class="circle" style="border-radius: 50%; background-color: white; padding: 10%;">
-                <img [src]="'assets/img/femaleprofessor.png'" width="130" height="130">
+              <img [src]="'assets/img/users/teacher.png'" width="130" height="130">
             </div>
-        </div>
-          <div class="detail_3" (click)="navigate()" style="background-color: rgb(19, 104, 97); margin-right: 5%;">
-            <h2 style="font-weight: bolder; font-size: 35px;font-family: monospace; margin-top: 5%; color: white;"> Learner </h2>
+            <h2 style="font-weight: bolder; font-size: 24px; margin-top: 5%; ">
+              Professor </h2>
+          </div>
+          <div class="detail_3" (click)="navigate()" style="margin-right: 5%;">
+
             <div class="circle" style="border-radius: 50%; background-color: white; padding: 10%;">
-                <img [src]="'assets/img/male.png'" width="130" height="130">
+              <img [src]="'assets/img/users/learner.png'" width="130" height="130">
             </div>
-        </div>
+            <h2 style="font-weight: bolder; font-size:24px;margin-top: 5%;">
+              Learner </h2>
+          </div>
         </div>
       </div>
     </div>
   </section>
 </main>
 
-<app-footer></app-footer>

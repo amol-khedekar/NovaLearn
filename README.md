@@ -10,17 +10,18 @@ Welcome to NovaLearn LMS - eLearning Management System. This system facilitates 
 Click here to see preview
 </summary>
 
-![alt text](<images/Screenshot (35).png>)
 ![alt text](<images/Screenshot (36).png>)
 ![alt text](<images/Screenshot (37).png>)
-![alt text](<images/Screenshot (38).png>)
 ![alt text](<images/Screenshot (39).png>)
 ![alt text](<images/Screenshot (40).png>)
 ![alt text](<images/Screenshot (41).png>)
 ![alt text](<images/Screenshot (46).png>)
-![alt text](<images/Screenshot (54).png>)
-![alt text](<images/Screenshot (55).png>)
-![alt text](<images/Screenshot (56).png>)
+
+ ![alt text](<images/Screenshot (58).png>)
+ ![alt text](<images/Screenshot (60).png>) 
+
+![alt text](<images/Screenshot (73).png>)
+![alt text](<images/Screenshot (71).png>)
 
 
 </details>
@@ -82,6 +83,10 @@ Click here to see preview
 ![alt text](<images/Screenshot (40).png>)
 ![alt text](<images/Screenshot (41).png>)
 ![alt text](<images/Screenshot (46).png>)
-![alt text](<images/Screenshot (54).png>)
-![alt text](<images/Screenshot (55).png>)
-![alt text](<images/Screenshot (56).png>)
+![alt text](<images/Screenshot (58).png>)
+ ![alt text](<images/Screenshot (60).png>) 
+![alt text](<images/Screenshot (61).png>)
+![alt text](<images/Screenshot (62).png>)
+![alt text](<images/Screenshot (73).png>)
+![alt text](<images/Screenshot (71).png>)
+![alt text](<images/Screenshot (70).png>)
